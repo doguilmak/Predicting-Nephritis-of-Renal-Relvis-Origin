@@ -45,28 +45,28 @@ dtypes: **object(8)**
 
 ***Logistic Regression Confusion Matrix:***
 
-![val_accuracy](Plot/logistic_regression_classifier_cm.png)
+![val_accuracy](Plots/logistic_regression_classifier_cm.png)
 
 > **Accuracy score: 1.0**
 
 ***K-NN Confusion Matrix:***
 
-![val_accuracy](Plot/knn_classifier_cm.png)
+![val_accuracy](Plots/knn_classifier_cm.png)
 
 > **Accuracy score: 1.0**
 > **K-NN Score: 1.0**
 
 ***SVC Confusion Matrix:***
 
-![val_accuracy](Plot/svc_classifier_cm.png)
+![val_accuracy](Plots/svc_classifier_cm.png)
 
 > **Accuracy score: 1.0**
 
 ***Decision Tree Classifier Confusion Matrix:***
 
-![val_accuracy](Plot/desicion_tree_classifier_cm.png)
+![val_accuracy](Plots/desicion_tree_classifier_cm.png)
 
-![val_accuracy](Plot/desicion_tree.png)
+![val_accuracy](Plots/desicion_tree.png)
 
 > **Accuracy score: 0.95**
 
@@ -92,7 +92,7 @@ dtypes: **object(8)**
 
  [0.     0.0625 0.6875 0.8125 0.875  1.     1.     1.     1.     1. 1. ]
 
-![val_accuracy](Plot/roc_graph.png)
+![val_accuracy](Plots/roc_graph.png)
 
 ---
 
