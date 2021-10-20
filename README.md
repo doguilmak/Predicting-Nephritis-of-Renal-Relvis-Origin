@@ -134,3 +134,4 @@ If you have something to say to me please contact me:
  - Twitter: [Doguilmak](https://twitter.com/Doguilmak) 
  - Mail address: doguilmak@gmail.com
  
+![doguilmak's GitHub stats](https://github-readme-stats.vercel.app/api?username=doguilmak&theme=dark&show_icons=true)
