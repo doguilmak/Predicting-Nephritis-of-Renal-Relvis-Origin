@@ -71,9 +71,8 @@ dtypes: **object(8)**
 > **Accuracy score: 0.95**
 
 ***Random Forest Confusion Matrix:***
-| 24 | 8 |
-|--|--|
-| **2** | **14** |
+
+![val_accuracy](Plots/random_forest_classifier_cm.png)
 
 > **Accuracy score: 0.95**
 
