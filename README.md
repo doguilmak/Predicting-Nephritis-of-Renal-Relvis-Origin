@@ -22,7 +22,7 @@ e-mail: jacek.czerniak@ibspan.waw.pl or jczerniak@ukw.edu.pl
 
 In this project, as stated in the title, results were obtained through classifiaction methods such as ***Logistic Regression, K-NN, SVC, Decision Tree*** and ***Random Forest***.  You are free to visit [Machine Learning: Classification Models](https://medium.com/fuzz/machine-learning-classification-models-3040f71e2529) website for learn the methods better.
 
-For reducing dimensions, **Principal Component Analysis (PDA) and Linear Discriminant Analysis (LDA)** was used that 7 dimensional data into 1 or 2 dimensions.
+For reducing dimensions, **Principal Component Analysis (PDA) and Linear Discriminant Analysis (LDA)** was used that 7 dimensional data into 1 or 2 dimensions. IF you want to take a look at what is Principal Component Analysis, please take a look at [Michael Galarnyk's study](https://towardsdatascience.com/pca-using-python-scikit-learn-e653f8989e60).
 
 ## Analysis
 
