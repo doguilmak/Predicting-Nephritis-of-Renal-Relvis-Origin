@@ -114,11 +114,11 @@ dtypes: **object(8)**
 **Best parameters for Logistic Regression:**
 {'C': 1, 'gamma': 1, 'kernel': 'linear'}
  
-> **Took 6.556812286376953 seconds to classificate objects.**
+**Took 6.556812286376953 seconds to classificate objects.**
 
 ---
 
-### Principal Component Analysis (PCA) with Logistic Regression
+### Principal Component Analysis (PCA) and Linear Discriminant Analysis (LDA) with Logistic Regression
 
 The original data has 7 columns except independent variable column (y). In this section, the code projects the original data which is 7 dimensional into 2 dimensions. I should note that after dimensionality reduction, there usually isn’t a particular meaning assigned to each principal component. The new components have got two main dimensions of variation instead of 7.
 
@@ -151,7 +151,6 @@ The original data has 7 columns except independent variable column (y). In this 
 
 > **Accuracy score: 0.9166666666666666**
 
----
 ### Linear Discriminant Analysis (LDA) with Logistic Regression
 
 ***LDA and Actual Confusion Matrix :***
@@ -162,7 +161,7 @@ The original data has 7 columns except independent variable column (y). In this 
 
 > **Accuracy score: 1.0**
 
-> **Process took 0.11631369590759277 seconds.**
+**Process took 0.11631369590759277 seconds.**
 
 ## How to Run Code
 
