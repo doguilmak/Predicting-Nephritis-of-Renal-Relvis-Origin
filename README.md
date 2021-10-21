@@ -3,7 +3,7 @@
 
 ## Problem Statement
 
-The purpose of this study is; based on the available data, it was estimated whether the person **suffered from renal pelvis origin nephritis** using classification algorithms.
+The purpose of this study is; based on the available data, it was estimated whether the person **suffered from renal pelvis origin nephritis** using classification algorithms. In addition, dimension reduction was made with **Principal Component Analysis (PDA) and Linear Discriminant Analysis(LDA)** methods. PDA and LDA methods made with Logistic Regression.
 
 ## Dataset
 
@@ -21,6 +21,8 @@ e-mail: jacek.czerniak@ibspan.waw.pl or jczerniak@ukw.edu.pl
 ## Methodology
 
 In this project, as stated in the title, results were obtained through classifiaction methods such as ***Logistic Regression, K-NN, SVC, Decision Tree*** and ***Random Forest***.  You are free to visit [Machine Learning: Classification Models](https://medium.com/fuzz/machine-learning-classification-models-3040f71e2529) website for learn the methods better.
+
+For reducing dimensions, **Principal Component Analysis (PDA) and Linear Discriminant Analysis (LDA)** was used that 7 dimensional data into 1 or 2 dimensions.
 
 ## Analysis
 
@@ -71,8 +73,9 @@ dtypes: **object(8)**
 > **Accuracy score: 0.95**
 
 ***Random Forest Confusion Matrix:***
-
-![val_accuracy](Plots/random_forest_classifier_cm.png)
+| 24 | 8 |
+|--|--|
+| **2** | **14** |
 
 > **Accuracy score: 0.95**
 
@@ -84,13 +87,12 @@ dtypes: **object(8)**
 1.0
 
 **False Positive Rate**
- 
- [0. 0. 0. 0. 0. 0.
- 0.25       0.33333333 0.58333333 0.66666667 1. ]
+ [0.         0.         0.         0.         0.         0.
+ 0.25       0.33333333 0.58333333 0.66666667 1.        ]
 
 **True Positive Rate**
 
- [0. 0.0625 0.6875 0.8125 0.875  1. 1. 1. 1. 1. 1. ]
+ [0.     0.0625 0.6875 0.8125 0.875  1.     1.     1.     1.     1. 1. ]
 
 ![val_accuracy](Plots/roc_graph.png)
 
@@ -113,6 +115,54 @@ dtypes: **object(8)**
 {'C': 1, 'gamma': 1, 'kernel': 'linear'}
  
 > **Took 6.556812286376953 seconds to classificate objects.**
+
+---
+
+### Principal Component Analysis (PCA) with Logistic Regression
+
+The original data has 7 columns except independent variable column (y). In this section, the code projects the original data which is 7 dimensional into 2 dimensions. I should note that after dimensionality reduction, there usually isn’t a particular meaning assigned to each principal component. The new components have got two main dimensions of variation instead of 7.
+
+**Plot of 2 Dimensional Data:**
+
+![val_accuracy](2_component_PCA.png)
+
+### **Confusion Matrices and Accuracy Scores**
+
+***Actual / Without PCA Confusion Matrix :***
+
+| 17 | 0 |
+|--|--|
+| **0** | **7** | 
+
+> **Accuracy score: 1.0**
+
+***Actual / With PCA Confusion Matrix :***
+
+| 17 | 0 |
+|--|--|
+| **2** | **5** |  
+
+> **Accuracy score: 0.9166666666666666**
+
+***Without PCA and with PCA Confusion Matrix :***
+| 17 | 0 |
+|--|--|
+| **2** | **5** | 
+
+> **Accuracy score: 0.9166666666666666**
+
+---
+### Linear Discriminant Analysis (LDA) with Logistic Regression
+
+***LDA and Actual Confusion Matrix :***
+
+| 17 | 0 |
+|--|--|
+| **0** | **7** |
+
+> **Accuracy score: 1.0**
+
+> **Process took 0.11631369590759277 seconds.**
 
 ## How to Run Code
 
