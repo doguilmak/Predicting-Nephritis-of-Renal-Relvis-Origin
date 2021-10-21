@@ -124,7 +124,7 @@ The original data has 7 columns except independent variable column (y). In this 
 
 **Plot of 2 Dimensional Data:**
 
-![val_accuracy](2_component_PCA.png)
+![PCA](Plots/2_component_PCA.png)
 
 ### **Confusion Matrices and Accuracy Scores**
 
