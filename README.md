@@ -120,6 +120,8 @@ dtypes: **object(8)**
 
 ### Principal Component Analysis (PCA) and Linear Discriminant Analysis (LDA) with Logistic Regression
 
+### Principal Component Analysis (PCA)
+
 The original data has 7 columns except independent variable column (y). In this section, the code projects the original data which is 7 dimensional into 2 dimensions. I should note that after dimensionality reduction, there usually isn’t a particular meaning assigned to each principal component. The new components have got two main dimensions of variation instead of 7.
 
 **Plot of 2 Dimensional Data:**
@@ -151,7 +153,7 @@ The original data has 7 columns except independent variable column (y). In this 
 
 > **Accuracy score: 0.9166666666666666**
 
-### Linear Discriminant Analysis (LDA) with Logistic Regression
+### Linear Discriminant Analysis (LDA)
 
 ***LDA and Actual Confusion Matrix :***
 
