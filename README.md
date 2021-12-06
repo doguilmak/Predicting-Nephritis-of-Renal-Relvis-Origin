@@ -43,39 +43,40 @@ dtypes: **object(8)**
 
 > **Number of NaN values:**   0 
 
+---
+
 ### Comparsing Classification Methods
 
 ***Logistic Regression Confusion Matrix:***
 
-![val_accuracy](Plots/logistic_regression_classifier_cm.png)
+![cm](Plots/logistic_regression_classifier_cm.png)
 
 > **Accuracy score: 1.0**
 
 ***K-NN Confusion Matrix:***
 
-![val_accuracy](Plots/knn_classifier_cm.png)
+![cm](Plots/knn_classifier_cm.png)
 
 > **Accuracy score: 1.0**
 > **K-NN Score: 1.0**
 
 ***SVC Confusion Matrix:***
 
-![val_accuracy](Plots/svc_classifier_cm.png)
+![cm](Plots/svc_classifier_cm.png)
 
 > **Accuracy score: 1.0**
 
 ***Decision Tree Classifier Confusion Matrix:***
 
-![val_accuracy](Plots/desicion_tree_classifier_cm.png)
+![cm](Plots/desicion_tree_classifier_cm.png)
 
-![val_accuracy](Plots/desicion_tree.png)
+![cm](Plots/desicion_tree.png)
 
 > **Accuracy score: 0.95**
 
 ***Random Forest Confusion Matrix:***
-| 24 | 8 |
-|--|--|
-| **2** | **14** |
+
+![cm](Plots/random_forest_classifier_cm.png)
 
 > **Accuracy score: 0.95**
 
@@ -94,7 +95,7 @@ dtypes: **object(8)**
 
  [0.     0.0625 0.6875 0.8125 0.875  1.     1.     1.     1.     1. 1. ]
 
-![val_accuracy](Plots/roc_graph.png)
+![cm](Plots/roc_graph.png)
 
 ---
 
